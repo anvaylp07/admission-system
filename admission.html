@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+		<style type="text/css">
+
+			input{
+				margin-top: 10px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<form action="marks.html" method="post">
+			<h1>Admission Form</h1><br>
+			<div class="form-group row">
+				<label for="firstname" class="col-2 col-form-label">First Name</label>
+				<div class="col-10">
+					<input class="form-control" type="text" value="" 
+						   name="fname" id="fname">
+				</div>
+			</div>
+
+
+			<div class="form-group row">
+				<label for="middlename" class="col-2 col-form-label">Middle Name</label>
+				<div class="col-10">
+					<input class="form-control" type="text" name="mname" value="" id="mname">
+				</div>
+			</div>
+
+
+			<div class="form-group row">
+				<label for="lastname" class="col-2 col-form-label">Last Name</label>
+				<div class="col-10">
+					<input class="form-control" type="text" name="lname" value="" id="lname">
+				</div>
+			</div>
+
+
+			<div class="form-group row">
+				<label for="mothersname" class="col-2 col-form-label">Mother's Name</label>
+				<div class="col-10">
+					<input class="form-control" type="text" value="" name="mname" id="mname">
+				</div>
+			</div>
+
+			<div class="form-check">
+				Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label class="form-check-label">
+					<input class="form-check-input" type="radio" name="gender" id="male" value="option1" checked>Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+					<input class="form-check-input" type="radio" name="gender" id="female" value="option2">Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+					<input class="form-check-input" type="radio" name="gender" id="other" value="option2">Other
+				</label>
+			</div>
+
+			<div class="form-group row">
+				<label for="mob-input" class="col-2 col-form-label">Mobile No.</label>
+				<div class="col-10">
+					<input class="form-control" type="tel" value="+91-" name="mob-input" id="mob-input">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="example-date-input" class="col-2 col-form-label">Date of Birth</label>
+				<div class="col-10">
+					<input class="form-control" type="date" value="" name="bdate"  id="bdate">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="marks10" class="col-2 col-form-label">10th Percentage</label>
+				<div class="col-10">
+					<input class="form-control" type="number" value="" name="marks10" id="marks10">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="marks12" class="col-2 col-form-label">12th Percentage</label>
+				<div class="col-10">
+					<input class="form-control" type="number" value="" name="marks12" id="marks12">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="marks12" class="col-2 col-form-label">CET Score</label>
+				<div class="col-10">
+					<input class="form-control" type="number" value="" name="markscet" id="markscet">
+				</div>
+			</div>
+
+
+			<div class="form-group row">
+				<label for="previnst" class="col-2 col-form-label">Previous Institute Attended</label>
+				<div class="col-10">
+					<input class="form-control" type="text" value="previnst" id="previnst">
+				</div>
+			</div>
+
+			<label class="col-2" for="branch">Branch</label>
+			<select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="branch" id="branch">
+				<option selected>Choose...</option>
+				<option value="cmpn">CMPN</option>
+				<option value="it">IT</option>
+				<option value="extc">EXTC</option>
+				<option value="etrx">ETRX</option>
+				<option value="mech">MECH</option>
+				<option value="civil">CIVIL</option>
+			</select>
+			
+			<button type="submit" class="btn btn-primary" name="submit">Submit</button>
+			</form>
+		</div>
+
+
+
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
+</html>
